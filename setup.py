@@ -4,7 +4,7 @@ import setuptools
 with open("README.md", 'r', encoding="utf-8") as readme:
     long_description= readme.read()
 
-__version__="0.0.0"##Whenever we run or upload the changes into cloud then the version has to be changed
+__version__="0.0.0"##Whenever we run or u pload the changes into cloud then the version has to be changed
 
 REPO_NAME="vehicle_detection_yolo"
 AUTHOR_USER_NAME="vikaslakkacs"
