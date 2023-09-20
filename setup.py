@@ -1,14 +1,14 @@
 ### Setting up the basic structure of the project like name, repo name author etc.,
 import setuptools
 ##Get the description of project from readme.
-with open("README.md", openTextMode='r', encoding="utf-8") as readme:
+with open("README.md", 'r', encoding="utf-8") as readme:
     long_description= readme.read()
 
 __version__="0.0.0"##Whenever we run or upload the changes into cloud then the version has to be changed
 
 REPO_NAME="vehicle_detection_yolo"
 AUTHOR_USER_NAME="vikaslakkacs"
-SRC_REPO= "vehicle_detection_yolo"
+SRC_REPO= "vehicle_detection"
 AUTHOR_EMAIL="vikaslakkacs@gmail.com"
 
 

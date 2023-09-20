@@ -4,7 +4,7 @@ conda init bash
 echo [$(date)]: "Mac M1 steps"
 conda install -y jupyter --y
 echo [$(date)]: "De-activating conda (If using Mac M1 and trying to install packages this is must)"
-echo [$(date)]:"Create env with python 3.8 version with "
+echo [$(date)]:"Create env with python 3.10 version with "
 conda env create -f requirements_dev.yml
 echo [$(date)]: "activating the environment"
 conda activate vehicledetector
