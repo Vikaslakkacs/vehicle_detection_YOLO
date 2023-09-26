@@ -162,3 +162,7 @@ cython_debug/
 
 #Vs code
 .vscode
+# dataset
+dataset/
+artifacts/
+.DS_Store/
