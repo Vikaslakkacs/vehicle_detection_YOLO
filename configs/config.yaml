@@ -1,0 +1,11 @@
+artifacts_root: artifacts
+
+
+data_ingestion: 
+  root_dir: artifacts/data_ingestion
+  source_url: none
+  local_data_file:  artifacts/data_ingestion/dataset.zip
+  unzip_dir: artifacts/data_ingestion
+  zip_file_dir: dataset
+  dataset_source: dataset/dataset.zip
+  
