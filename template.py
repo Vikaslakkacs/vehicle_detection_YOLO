@@ -29,6 +29,10 @@ list_of_files=[
     "pyproject.toml",## For Python package creation
     "tox.ini",##Testing project locally
     "research/stage_01.ipynb",##Jupyter notebook
+    "research/stage_02.ipynb",
+    "research/stage_03.ipynb",
+    "research/stage_04.ipynb",
+    "research/stage_05.ipynb",
     "tests/__init__.py",
     "tests/unit/__init__.py",
     "tests/integration/__init__.py",
