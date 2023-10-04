@@ -1,0 +1,1 @@
+from vehicle_detection.entity.config_entity import *
