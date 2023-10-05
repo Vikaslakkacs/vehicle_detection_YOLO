@@ -53,6 +53,7 @@ dependencies:
         - torchvision>=0.8.1
         - tqdm>=4.64.0
         - ultralytics>=8.0.111
+        - bbx
         
 
         ## Dev requirements
