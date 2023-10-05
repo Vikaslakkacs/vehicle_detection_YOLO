@@ -5,6 +5,8 @@ from zipfile import ZipFile
 import shutil
 from vehicle_detection.entity import DataIngestionConfig
 from pathlib import Path
+##Co-ordinate conversion
+import pybboxes as pbx
 
 ## Data Ingestion component
 class DataIngestion:
@@ -46,6 +48,7 @@ class DataIngestion:
             list_of_files= zf.namelist()
             zf.extractall(self.config.unzip_dir)
 
-            ##extracting files that has only filename dataset
-            '''for f in list_of_files:
-                self._preprocess(zf, f, self.config.unzip_dir)'''
+    def boundingbox_conversion_YOLO(self):
+        """conversion of normal co-ordinates 
+            to coordinates that yolo understands"""
+        pass

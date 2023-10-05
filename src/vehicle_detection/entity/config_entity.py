@@ -10,3 +10,6 @@ class DataIngestionConfig:
     unzip_dir: Path
     zip_file_dir: Path
     dataset_source: Path
+    coordinates_path: Path
+    yolo_conversion_image_size: list
+    yolo_voc_bbx: list

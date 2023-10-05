@@ -20,6 +20,7 @@ class ConfigurationManager:
             DataIngestionConfig: Dataingestion data
         """
         config= self.config.data_ingestion
+        params= self.params
         ##Create directory that are required for data ingestion(taken from config.yaml)
         create_directories([config.root_dir])
 
@@ -29,7 +30,10 @@ class ConfigurationManager:
             local_data_file= config.local_data_file,
             unzip_dir= config.unzip_dir,
             zip_file_dir= config.zip_file_dir,
-            dataset_source= config.dataset_source
+            dataset_source= config.dataset_source,
+            coordinates_path= config.coordinates_path,
+            yolo_conversion_image_size= params.IMAGE_SIZE,
+            yolo_voc_bbx= params.VOC_BBX
         )
         return data_ingestion_config
 
