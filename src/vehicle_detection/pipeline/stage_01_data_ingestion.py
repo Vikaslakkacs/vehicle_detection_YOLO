@@ -10,6 +10,8 @@ def main():
     data_ingestion= DataIngestion(config= data_ingestion_config)
     data_ingestion.copy_dataset_destination(data_ingestion_config.dataset_source, data_ingestion_config.unzip_dir)
     data_ingestion.unzip_and_clean()
+    ##Coordinates conversion to yolo
+    data_ingestion.boundingbox_conversion_YOLO()
 
 
 
