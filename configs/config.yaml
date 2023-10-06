@@ -9,4 +9,5 @@ data_ingestion:
   zip_file_dir: dataset
   dataset_source: dataset/dataset.zip
   coordinates_path: artifacts/data_ingestion/dataset/train_solution_bounding_boxes (1).csv
+  coordinates_target_path: artifacts/data_ingestion/dataset/train_images
   
