@@ -13,3 +13,4 @@ class DataIngestionConfig:
     coordinates_path: Path
     yolo_conversion_image_size: list
     yolo_voc_bbx: list
+    coordinates_target_path: Path

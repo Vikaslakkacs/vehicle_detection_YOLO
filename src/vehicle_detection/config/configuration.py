@@ -33,7 +33,8 @@ class ConfigurationManager:
             dataset_source= config.dataset_source,
             coordinates_path= config.coordinates_path,
             yolo_conversion_image_size= params.IMAGE_SIZE,
-            yolo_voc_bbx= params.VOC_BBX
+            yolo_voc_bbx= params.VOC_BBX,
+            coordinates_target_path= config.coordinates_target_path
         )
         return data_ingestion_config
 
