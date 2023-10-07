@@ -1,0 +1,2 @@
+train: artifacts/data_ingestion/dataset/train_images
+val: artifacts/data_ingestion/dataset/test_images
