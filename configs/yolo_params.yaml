@@ -1,2 +1,7 @@
-train: artifacts/data_ingestion/dataset/train_images
-val: artifacts/data_ingestion/dataset/test_images
+train1: artifacts/data_ingestion/dataset/train_images
+val1: artifacts/data_ingestion/dataset/test_images
+train: dataset/train_images
+val: dataset/test_images
+nc: 1
+
+names: ['Car']
